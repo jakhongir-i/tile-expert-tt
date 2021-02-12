@@ -238,6 +238,6 @@ fabric.properties
 .idea/**/markdown-navigator/
 
 
-build/
+
 # End of https://www.gitignore.io/api/node,macos,webstorm,visualstudiocode
 yarn.lock

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>correct</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy" transform="translate(-590.000000, -337.000000)" fill-rule="nonzero">
+            <g id="correct" transform="translate(590.000000, 337.000000)">
+                <path d="M12,0 C5.38293459,0 0,5.38293459 0,12 C0,18.6170654 5.38293459,24 12,24 C18.6170654,24 24,18.6170654 24,12 C24,5.38293459 18.6170654,0 12,0 Z" id="Path" fill="#5ADC5A"></path>
+                <path d="M18.6756242,9.80763843 L11.4843568,16.689615 C11.2686127,16.896086 10.9854106,17 10.7022085,17 C10.4190063,17 10.1358042,16.896086 9.92006014,16.689615 L6.32452774,13.2486267 C5.89182409,12.8347156 5.89182409,12.1654783 6.32452774,11.7515671 C6.75702879,11.337462 7.45612071,11.337462 7.88882437,11.7515671 L10.7022085,14.4440256 L17.1113276,8.31057881 C17.5438286,7.89647373 18.2429205,7.89647373 18.6756242,8.31057881 C19.1081253,8.72448998 19.1081253,9.39353335 18.6756242,9.80763843 Z" id="Path" fill="#FAFAFA"></path>
+            </g>
+        </g>
+    </g>
+</svg>

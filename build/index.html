@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>TILT.EXPERT.TEST</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <script defer src="js/libs.min.js"></script>
+    <script defer src="js/common.min.js"></script>
+  </head>
+  <body>
+    <header class="header"><a class="header__logo" href="#"></a>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item"><a class="header__nav-link" href="#">Cсылки</a></li>
+          <li class="header__nav-item"><a class="header__nav-link no-submenu" href="#">Контакты</a></li>
+          <li class="header__nav-item"><a class="header__nav-link" href="#">Теги</a></li>
+          <li class="header__nav-item"><a class="header__nav-link" href="#">Просьбы</a></li>
+          <li class="header__nav-item"><a class="header__nav-link" href="#">Избранное</a></li>
+          <li class="header__nav-item"><a class="header__nav-link" href="#">Посещения</a></li>
+        </ul>
+        <button class="widget-btn search-icon">
+          <svg class="icon" width="20" height="20">
+            <use xlink:href="img/sprite/sprite.svg#search-24px"></use>
+          </svg>
+        </button>
+        <button class="widget-btn"> 
+          <svg class="icon" width="20" height="20">
+            <use xlink:href="img/sprite/sprite.svg#add_circle-24px"></use>
+          </svg>
+        </button>
+        <div class="header__search-form">
+          <form class="search-form">
+            <div class="search-form__wrap">
+              <div class="search-form__input-wrap">
+                <input class="search-form__input" type="text"><span class="search-form__input-clear"></span>
+              </div>
+              <button class="search-form__submit">НАЙТИ</button>
+            </div>
+            <div class="search-form__filters-wrap">
+              <div class="search-form__filters">
+                <div class="search-form__row">
+                  <label class="checkbox-container"> 
+                    <input type="checkbox"><span class="checkbox"></span>мои
+                  </label>
+                  <input class="filter-input" type="text" placeholder="Автор">
+                </div>
+                <div class="search-form__row">
+                  <div class="sort">
+                    <label for="sort">Сортировать по:</label>
+                    <select id="sort" name="sort"> 
+                      <option value="Option 1"> дате</option>
+                      <option value="Option 2"> Option 2</option>
+                      <option value="Option 3"> Option 3</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="search-form__row">
+                  <label class="checkbox-container"> 
+                    <input type="checkbox"><span class="checkbox"></span>в участник
+                  </label>
+                  <label class="checkbox-container"> 
+                    <input type="checkbox"><span class="checkbox"></span>в заголовке
+                  </label>
+                  <label class="checkbox-container"> 
+                    <input type="checkbox"><span class="checkbox"></span>строгий режим
+                  </label>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </nav>
+      <div class="header__widgets">
+        <ul class="header__widgets-list"> 
+          <li class="header__widget-item"> 
+            <button class="widget-btn mail-icon">
+              <svg class="icon" width="20" height="20">
+                <use xlink:href="img/sprite/sprite.svg#mail-24px"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="header__widget-item"> 
+            <button class="widget-btn notification-icon">
+              <svg class="icon" width="20" height="20">
+                <use xlink:href="img/sprite/sprite.svg#notifications-24px"></use>
+              </svg>
+            </button><span class="widget-badge">12</span>
+          </li>
+          <li class="header__widget-item"><span class="user-photo"><img src="img/inhtml/user-photo.png" alt="user-photo"></span></li>
+        </ul>
+      </div>
+    </header>
+    <div class="text"> </div>
+  </body>
+</html>
