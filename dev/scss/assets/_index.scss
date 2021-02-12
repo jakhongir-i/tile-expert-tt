@@ -54,6 +54,9 @@
     display: inline-block;
     transition: .1s linear;
 
+    font-weight: 500;
+
+
 
 
     &.no-submenu {
@@ -205,6 +208,7 @@
     opacity: 0;
     pointer-events: none;
     transition: all .1s;
+    font-weight: 500;
 
     &--open {
       transform: translateY(0);
