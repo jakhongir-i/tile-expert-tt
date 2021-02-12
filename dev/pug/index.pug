@@ -1,0 +1,84 @@
+include assets/_mixins
+
+doctype
+html(lang="ru")
+  head
+    title TILT.EXPERT.TEST
+    include assets/_metas
+    include assets/_links
+    include assets/_scripts
+  body
+    header.header
+      a.header__logo(href="#")
+      nav.header__nav
+        ul.header__nav-list
+          li.header__nav-item
+            a.header__nav-link(href="#") Cсылки
+          li.header__nav-item
+            a.header__nav-link.no-submenu(href="#") Контакты
+          li.header__nav-item
+            a.header__nav-link(href="#") Теги
+          li.header__nav-item
+            a.header__nav-link(href="#") Просьбы
+          li.header__nav-item
+            a.header__nav-link(href="#") Избранное
+          li.header__nav-item
+            a.header__nav-link(href="#") Посещения
+        button.widget-btn.search-icon
+          +icon('icon','20','20', 'search-24px')
+        button.widget-btn 
+          +icon('icon','20','20', 'add_circle-24px')
+
+        .header__search-form
+          form.search-form
+            .search-form__wrap
+              .search-form__input-wrap
+                input(type="text").search-form__input
+                span.search-form__input-clear
+              button.search-form__submit НАЙТИ
+            .search-form__filters-wrap
+              .search-form__filters
+                .search-form__row
+                  label.checkbox-container 
+                    input(type="checkbox")
+                    span.checkbox
+                    | мои
+                  input(type="text" placeholder="Автор").filter-input
+                .search-form__row
+                  .sort
+                    label(for="sort") Сортировать по:
+                    select#sort(name="sort") 
+                      option(value="Option 1")  дате
+                      option(value="Option 2")  Option 2
+                      option(value="Option 3")  Option 3
+
+                .search-form__row
+                  label.checkbox-container 
+                    input(type="checkbox")
+                    span.checkbox
+                    | в участник
+                  
+                  label.checkbox-container 
+                    input(type="checkbox")
+                    span.checkbox
+                    | в заголовке
+                  
+                  label.checkbox-container 
+                    input(type="checkbox")
+                    span.checkbox
+                    | строгий режим
+                  
+      .header__widgets
+        ul.header__widgets-list 
+          li.header__widget-item 
+            button.widget-btn.mail-icon
+              +icon('icon','20','20', 'mail-24px')
+          li.header__widget-item 
+            button.widget-btn.notification-icon
+              +icon('icon','20','20', 'notifications-24px')
+            span.widget-badge 12
+          li.header__widget-item
+            span.user-photo
+              img(src="img/inhtml/user-photo.png", alt="user-photo")
+
+    .text 

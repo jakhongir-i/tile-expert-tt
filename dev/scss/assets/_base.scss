@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.icon {
+  fill: #fff;
+  transition: .2s linear;
+
+  &:hover {
+    opacity: .8;
+  }
+}
